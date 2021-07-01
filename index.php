@@ -71,11 +71,12 @@ $todo = new Todo();
             <a href="excluir.php?id=<?php echo $item['id'];?>" name="excluir">Excluir</a>
             </td>
             
-            </tr>            
+                       
         </tbody>
         <?php
         endforeach;
         ?>
+        </tr> 
     </table>
 
     
